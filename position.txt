@@ -1,0 +1,12 @@
+Entrace: You are here.
+Staircase: Elevator to the right and staircase to the left.
+E10XX: The room will be in the hallway to your left.
+E1017: The room will be the first one on the left.
+E1022: The room will be the second one on the left.
+E1028_Stora-Enso: The room will be the one in the hallway.
+E1206: The room will be the first one on your left.
+E1219: The room will be the first one on your right.
+E1217: The room will be down the hall on your right.
+E13XX: The room will be in the second hallway on your righ. 
+Gjuteri: The room will be on the right or left at the end of the hallway.
+E1418_1419: The room will be in the far right corner.

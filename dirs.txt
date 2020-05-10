@@ -1,0 +1,12 @@
+Entrance: You are here
+Staircase: Go to the elevator/staircase in front of you.
+E11XX: Take a right
+E1017: Take a left to the hallway.
+E1022: Follow the hallway.
+E1028: Follow the hallway to the end.
+E1206: Take a left to the hallway.
+E1219: Go into the first hallway on the right.
+E1217: Follow the hallway.
+E13XX: Follow the hallway.
+Gjuteri: Follow the hallway to the end.
+E1418_E1419: Take a right and go all the way down.

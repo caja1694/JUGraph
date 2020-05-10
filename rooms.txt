@@ -1,0 +1,12 @@
+Entrance Staircase E1017
+Staircase Entrance E11XX E1206
+E11XX Staircase
+E1017 Entrance E1022 
+E1022 E1017 E1028_Stora-Enso
+E1028_Stora-Enso E1022
+E1206 Staircase E13XX E1219
+E1219 E1206 E1217
+E1217 E1219
+E13XX E1206 Gjuerisalen_Fagerhultsaulan
+Gjuerisalen_Fagerhultsaulan E13XX E1418_E1419
+E1418_E1419 Gjuerisalen_Fagerhultsaulan
