@@ -1,0 +1,7 @@
+A; You are here.
+B; Take the corridor to the left.
+C; Go past the staircase in front of you, and take a right.
+D; Go past the staircase in fron of you and take a left.
+E; Follow the corridor all the way down.
+F; Go into the first corridor on the right side.
+G; Take a right at the end of the hallway.

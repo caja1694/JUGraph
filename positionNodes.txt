@@ -1,0 +1,17 @@
+B; E1017; The room is the first one on the left.
+B; E1022; The room is the second one on the left.
+B; E1020; The area is in the middle of the hallway. 
+B; E1028; The room is the last one on the left side. 
+B; Stora_Enso; The room is at the end of the hallway. 
+C; E1105; The room will be on the right side. 
+C; E11XX; The room will be in the first hallway to the left. 
+D; E1206; The room will be the first one on the left. 
+D; E13XX; The room will be in the second corridor on the right. 
+F; E1219; The room will be the first one on the right.
+F; E1217; The room will be the on the right side further down the hall. 
+F; E12XX; The room will be in the hallway. 
+E; Gjuterisalen; The room will be on the left side. 
+E; Fagerhultsaulan; The room will be on the right side.
+E; E14XX; The room should be on the left or right side.
+G; E1419; The room will be in the far right corner. 
+G; E1418; The room will be in the far right corner. 
