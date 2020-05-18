@@ -3,21 +3,42 @@ import kotlin.contracts.contract
 class Dictionary(){
     var dictionary: HashMap<String, String> = HashMap()
 
-    fun getNameOfNode(searchItem: String): String{
+    fun getNameOfNode(searched: String): String{
+        var searchItem = searched.toUpperCase()
+
         if(dictionary.contains(searchItem))
             return searchItem
+
         if(dictionary.containsValue(searchItem))
             return dictionary.filterValues { it == searchItem }.keys.toString()
+
+        if(searchItem.get(0) != 'E')
+            return getNameOfOuterBuilding(searchItem)
 
         return getNameOfClosestNode(searchItem)
     }
     fun getNameOfClosestNode(searchItem: String):String{
-        var nameOfBlock = searchItem.substring(0, 3)
+        var nameOfBlock = searchItem.substring(0, 3).toUpperCase()
+
         when(nameOfBlock){
             "E14" -> return "Gjuerisalen_Fagerhultsaulan"
-            else -> {
-                return nameOfBlock + "XX"
-            }
+            "E10" -> return "E1020"
+            else -> return nameOfBlock + "XX"
+        }
+    }
+    fun getNameOfOuterBuilding(searchItem: String): String{
+        var firstLetter = searchItem.get(0)
+
+        when(firstLetter){
+            'A' -> return "Rektorskansli"
+            'B' -> return "JIBS"
+            'C' -> return "Bibliotek"
+            'D' -> return "Studenternas Hus"
+            'F' -> return "Mariedal"
+            'G' -> return "Hälso"
+            'H' -> return "HLK"
+            'J' -> return "Campus"
+            else -> return "NOT_FOUND"
         }
     }
 

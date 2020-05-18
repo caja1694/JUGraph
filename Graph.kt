@@ -3,10 +3,9 @@ import kotlin.collections.ArrayList
 import kotlin.collections.HashMap
 import kotlin.collections.HashSet
 
-class Room(name: String){
+class Room(name: String, directions: String){
     var name: String = name
-    var dirs: String = ""
-    var pos: String = ""
+    var directions: String = directions
     var adjList: LinkedList<Room> = LinkedList()
 
     fun addAdj(node: Room){
@@ -20,7 +19,7 @@ class Room(name: String){
 class Graph{
     var graph: HashMap<String, Room> = HashMap()
     var nodePath: ArrayList<Room> = ArrayList() // Empty this after returning ?
-    var pos: String = ""
+
     fun getRoom(name: String): Room? {
         return graph.get(name)
     }
@@ -58,13 +57,12 @@ class Graph{
         if(findPathDFS(start, destination, visited)){
             var roomsOnPath = nodePath.reversed()
 
-            var iterator = roomsOnPath.size-1
+            var iterator = roomsOnPath.size
 
             for(i in 0 until iterator){
-                directions+="Step${i+1}: " + roomsOnPath[i].dirs
+                directions+="Step${i+1}: " + roomsOnPath[i].directions
                 directions+="\n"
             }
-            directions+="Step${roomsOnPath.size}: " + roomsOnPath.last().pos
         }
         else{
             directions = "The room was not recognized."
