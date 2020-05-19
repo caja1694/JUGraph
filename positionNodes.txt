@@ -15,10 +15,10 @@ E;Fagerhultsaulan;The room will be on the right side.
 E;E14XX;The room should be on the left or right side.
 G;E1419;The room will be in the far right corner.
 G;E1418;The room will be in the far right corner.
-A1;E2105;The room will be on the right.
-A1;E2127;The room will be on the left.
-A1;E21XX;The room will in the wing on the left.
-B1;E2205;The room will be the first one on the left.
+A1;E2105;The room will be the first one on the right in the main corridor.
+A1;E2127;The room will be the first one on the left in the first wing.
+A1;E21XX;The room will in the corridor to the left in the first wing.
+B1;E2205;The room will be the first one on the left in the main corridor.
 B1;E22XX;The room will be in the second wing on the right.
 B1;E2303;The room will be the second one on the left.
 B1;E2326;The room will be the first one in the third wing on the right.
@@ -28,3 +28,14 @@ C1;E2433;The room will be the first one on the right.
 C1;E2432;Go through the doors in the hallway and the room will be the first one on the right.
 C1;E24XX;The room will be in the left corridor.
 D1;E2426;The room will be on the right side.
+A2;LEONARDO;The room will be the first one on the right in the main corridor.
+A2;E31XX;The room will be in the corridor to the left in the first wing.
+B2;E3205;The room will the first one on the left in the main corridor.
+B2;E3231;The room will be the first one to the right in the second wing.
+B2;E32XX;The room will be in the corridor to the right in the second wing.
+C2;E3303;The room is located on the left in the main corridor.
+C2;E33XX;The room will be in the right corridor.
+D2;E3404;The room is located on the left in the main corridor.
+E2;E3439;The room will be the first one on the right side.
+E2;E3437;The room is located on the right side further down the hall.
+E2;E34XX;The room is located in the left corridor.

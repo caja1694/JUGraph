@@ -1,4 +1,4 @@
-A B C D A1 B1
+A B C D A1 B1 A2 B2
 B A
 C A
 D F E
@@ -9,3 +9,8 @@ A1 A
 B1 A C1
 C1 B1 D1
 D1 C1
+A2 A
+B2 A C2 D2
+C2 B2
+D2 B2 E2
+E2 D2

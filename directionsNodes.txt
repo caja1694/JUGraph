@@ -9,3 +9,8 @@ A1;Take the elevator/staircase in front of you to the second floor and take a ri
 B1;Take the elevator/staircase in front of you to the second floor and take a left.
 C1;Follow the main corridor until the end and go into the last wing on the right.
 D1;Go through the doors at the end of the hallway.
+A2;Take the elevator/staircase to the third floor and take a right.
+B2;Take the elevator/staircase to the third floor and take a left.
+C2;Go to the third wing.
+D2;Go to the forth wing.
+E2;Go into the corridor on the right.
