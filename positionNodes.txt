@@ -2,7 +2,7 @@ B;E1017;The room is the first one on the left.
 B;E1022;The room is the second one on the left.
 B;E1020;The area is in the middle of the hallway.
 B;E1028;The room is the last one on the left side.
-B;Stora_Enso;The room is at the end of the hallway.
+B;STORA_ENSO;The room is at the end of the hallway.
 C;E1105;The room will be on the right side.
 C;E11XX;The room will be in the first hallway to the left.
 D;E1206;The room will be the first one on the left.
@@ -10,8 +10,8 @@ D;E13XX;The room will be in the second corridor on the right.
 F;E1219;The room will be the first one on the right.
 F;E1217;The room will be the on the right side further down the hall.
 F;E12XX;The room will be in the hallway.
-E;Gjuterisalen;The room will be on the left side.
-E;Fagerhultsaulan;The room will be on the right side.
+E;GJUTERISALEN;The room will be on the left side.
+E;FAGERHULTSAULAN;The room will be on the right side.
 E;E14XX;The room should be on the left or right side.
 G;E1419;The room will be in the far right corner.
 G;E1418;The room will be in the far right corner.
@@ -20,14 +20,14 @@ A1;E2127;The room will be the first one on the left in the first wing.
 A1;E21XX;The room will in the corridor to the left in the first wing.
 B1;E2205;The room will be the first one on the left in the main corridor.
 B1;E22XX;The room will be in the second wing on the right.
-B1;E2303;The room will be the second one on the left.
-B1;E2326;The room will be the first one in the third wing on the right.
-B1;E23XX;The room will be in the third wing on the right.
-B1;E2404;The room will be at the end of the main corridor on the left.
-C1;E2433;The room will be the first one on the right.
-C1;E2432;Go through the doors in the hallway and the room will be the first one on the right.
-C1;E24XX;The room will be in the left corridor.
-D1;E2426;The room will be on the right side.
+C1;E2303;The room is located on the left in the main corridor.
+B1;E2326;The room will be the first one on the right in the right corridor.
+B1;E23XX;The room is located in the right corridor.
+D1;E2404;The room is located at the end of the main corridor on the left.
+E1;E2433;The room will be the first one on the right.
+E1;E2432;The room will be the second one on the right.
+E1;E24XX;The room will be in the left corridor.
+F1;E2426;The room will be on the right side.
 A2;LEONARDO;The room will be the first one on the right in the main corridor.
 A2;E31XX;The room will be in the corridor to the left in the first wing.
 B2;E3205;The room will the first one on the left in the main corridor.
@@ -39,3 +39,12 @@ D2;E3404;The room is located on the left in the main corridor.
 E2;E3439;The room will be the first one on the right side.
 E2;E3437;The room is located on the right side further down the hall.
 E2;E34XX;The room is located in the left corridor.
+A3;DA_VINCI;The room will be the first one on the right in the main corridor.
+A3;GALLILEO;The room is located on the right side in further down the main corridor.
+A3;E41XX;The room will be in the corridor to the left in the first wing.
+B3;E4205;The room will be the first one on the left in the main corridor.
+B3;E42XX;The room will be in the corridor to the right in the second wing.
+C3;E4304;The room is located on the left in the main corridor.
+C3;E43XX;The room will be in the right corridor.
+D3;E4404;The room is located on the left in the main corridor.
+D3;E44XX;The room is located in the area to the right of the main corridor.

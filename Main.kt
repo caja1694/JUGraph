@@ -2,18 +2,16 @@ import java.io.File
 import kotlin.collections.ArrayList
 
 fun main(args: Array<String>) {
-    var positionNodes = readFile("positionNodes.txt")
-    var directionNodes = readFile("directionsNodes.txt")
-    var connections = readFile("connections.txt")
-    var dirNodes: ArrayList<Room> = ArrayList()
+    var nodeData = NodeData()
+    var positionNodes: ArrayList<String> = nodeData.positionNodes.split("\n") as ArrayList<String>
+    var directionNodes: ArrayList<String> = nodeData.directionNodes.split("\n") as ArrayList<String>
+    var connections: ArrayList<String> = nodeData.connections.split("\n") as ArrayList<String>
     var graph = Graph()
 
     for(node in directionNodes){
         var nodeName = node.split(";").get(0)
         var nodeDir = node.split(";").get(1)
-        println("Nodename: " + nodeName + "NodeDirs: " + nodeDir)
         var node = Room(name = nodeName, directions = nodeDir)
-        dirNodes.add(node)
         graph.addRoom(node)
     }
 
@@ -49,46 +47,8 @@ fun main(args: Array<String>) {
     println(graph.getPath("A", searchItem))
 
 
-    /*
-    var rooms = File("rooms.txt").readLines()
-    var graph = Graph()
-    var dirs = readFile("dirs.txt")
-    var pos = readFile("position.txt")
-    var dictionary: Dictionary = Dictionary()
-    // Creating nodes and adding them to the graph without neighbors.
-    // Also adding directions to this from prev node and setting its position.
-    for(neighbors in rooms){
-        println(neighbors)
-        var room = createNode(neighbors)
-        room.dirs = dirs[rooms.indexOf(neighbors)]
-        room.pos = pos[rooms.indexOf(neighbors)]
-        graph.addRoom(room)
-    }
-    // Setting adjlist in node object = Creating edges = Setting neighborList
-    for(i in rooms){
-        var tmp = i.split(" ")
-        var source = graph.getRoom(tmp.get(0))
-        for(s in tmp){
-            var dest = graph.getRoom(s)
-            if(dest?.name != source?.name && dest != null)
-                source?.addAdj(dest!!)
-        }
-    }
-    // Searching a node and printing dirs.
-    dictionary.init(graph.getRoomNames())
-    println("Get directions to: ")
-    var sysIn = readLine()!!
-    var searchItem = dictionary.getNameOfNode(sysIn)
-    println("Searchitem: " + searchItem)
-    println(graph.getPath("Entrance", searchItem))
-     */
+
 }
-// Creating a new node object.
-/*
-fun createNode(neighbors: String): Room{
-    var node: Room = Room(neighbors.split(" ").get(0))
-    return node
-}*/
 // Retunrs and Arraylist Arr[i] = a line of text in file.txt.
 fun readFile(file: String): ArrayList<String>{
     var f = File(file)

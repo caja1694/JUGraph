@@ -8,10 +8,6 @@ class Room(name: String, directions: String){
     var directions: String = directions
     var adjList: LinkedList<Room> = LinkedList()
 
-    fun addAdj(node: Room){
-        adjList.add(node)
-    }
-
     override fun toString(): String {
         return "${name}"
     }

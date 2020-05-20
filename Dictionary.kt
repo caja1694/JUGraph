@@ -5,7 +5,6 @@ class Dictionary(){
 
     fun getNameOfNode(searched: String): String{
         var searchItem = searched.toUpperCase()
-
         if(dictionary.contains(searchItem))
             return searchItem
 
@@ -21,7 +20,6 @@ class Dictionary(){
         var nameOfBlock = searchItem.substring(0, 3).toUpperCase()
 
         when(nameOfBlock){
-            "E14" -> return "Gjuerisalen_Fagerhultsaulan"
             "E10" -> return "E1020"
             else -> return nameOfBlock + "XX"
         }
